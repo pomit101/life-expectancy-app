@@ -1,0 +1,54 @@
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.header {
+    text-align: center;
+    background-color: #f8f9fa;
+    padding: 20px;
+    border-bottom: 2px solid #007bff;
+}
+
+.health-metric {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    border: 1px solid #dee2e6;
+    margin-bottom: 15px;
+    border-radius: 5px;
+}
+
+.health-metric .metric-name {
+    font-size: 1.5em;
+    color: #28a745;
+}
+
+.health-metric .metric-value {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.card {
+    background-color: #ffffff;
+    border: 1px solid #dc3545;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.chart {
+    width: 100%;
+    height: 400px;
+}
+
+@media (max-width: 768px) {
+    .health-metric {
+        flex-direction: column;
+        align-items: center;
+    }
+    .health-metric .metric-name,
+    .health-metric .metric-value {
+        margin: 5px 0;
+    }
+}
