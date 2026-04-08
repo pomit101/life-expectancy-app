@@ -1,0 +1,13 @@
+.env
+vendor/
+node_modules/
+.DS_Store
+# IDEs and Editors
+*.idea/
+*.vscode/
+# Operating System files
+*.log
+*.tmp
+# Miscellaneous
+Thumbs.db
+.DS_Store
